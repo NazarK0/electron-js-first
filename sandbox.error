@@ -1,0 +1,4 @@
+run #sudo sysctl kernel.unprivileged_userns_clone=1 on linux  when 
+[11903:0614/215355.716038:FATAL:setuid_sandbox_host.cc(158)] The SUID sandbox helper binary was found, but is not configured correctly.
+ Rather than run without sandboxing I'm aborting now. 
+ You need to make sure that /home/nazar/projects/js/electron/image-shrink/node_modules/electron/dist/chrome-sandbox is owned by root and has mode 4755.
